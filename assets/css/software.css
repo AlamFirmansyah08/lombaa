@@ -130,7 +130,7 @@ body .container .card .face.face1 {
   padding: 20px;
 }
 
-body .container .card .face.face1 h2 {
+body .container .card .face.face1 .img {
   margin: 0;
 
   padding: 0;
@@ -164,12 +164,12 @@ body .container .card .face.face2 {
   transition: 0.5s;
 }
 
-body .container .card .face.face2 h2 {
+body .container .card .face.face2 img {
   margin: 0;
 
   padding: 0;
 
-  font-size: 10em;
+  height: 70%;
 
   color: #fff;
 
@@ -189,34 +189,54 @@ body .container .card:hover .face.face2 h2 {
 }
 
 body .container .card:nth-child(1) .face.face2 {
-  background-image: linear-gradient(
-    40deg,
-    #fffc00 0%,
-    #fc00ff 45%,
-    #00fffc 100%
-  );
+  background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(255, 255, 255, 0.14);
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(255, 255, 255, 0.14);
 
   border-radius: 15px;
 }
 
 body .container .card:nth-child(2) .face.face2 {
-  background-image: linear-gradient(
-    40deg,
-    #fc00ff 0%,
-    #00fffc 45%,
-    #fffc00 100%
-  );
-
+  background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(255, 255, 255, 0.14);
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 15px;
 }
 
 body .container .card:nth-child(3) .face.face2 {
-  background-image: linear-gradient(
-    40deg,
-    #00fffc 0%,
-    #fc00ff 45%,
-    #fffc00 100%
-  );
+  background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(255, 255, 255, 0.14);
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(255, 255, 255, 0.14);
 
   border-radius: 15px;
 }
