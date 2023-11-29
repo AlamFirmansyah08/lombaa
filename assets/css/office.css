@@ -72,7 +72,7 @@ body .container .card {
 .go-1 {
   font-weight: bold;
   letter-spacing: 2px;
-  color: orangered;
+  color: #fffc00;
   border: none;
   border-radius: 5%;
   text-decoration: none;
@@ -82,7 +82,7 @@ body .container .card {
 .go-2 {
   font-weight: bold;
   letter-spacing: 2px;
-  color:rgb(57, 57, 255);
+  color:#00fffc;
   border: none;
   border-radius: 5%;
   text-decoration: none;
@@ -92,7 +92,7 @@ body .container .card {
 .go-3 {
   font-weight: bold;
   letter-spacing: 2px;
-  color: yellow;
+  color: #fc00ff;
   border: none;
   border-radius: 5%;
   text-decoration: none;
@@ -142,24 +142,24 @@ body .container .card .face.face1 .img {
   padding: 0;
 }
 
-body .container .card .face.face1 .html {
-  background-color: orangered;
+body .container .card .face.face1 .java {
+  background-color: #fffc00;
 
   -webkit-background-clip: text;
 
   -webkit-text-fill-color: transparent;
 }
 
-body .container .card .face.face1 .css {
-  background-color:rgb(57, 57, 255);
+body .container .card .face.face1 .python {
+  background-color: #00fffc;
 
   -webkit-background-clip: text;
 
   -webkit-text-fill-color: transparent;
 }
 
-body .container .card .face.face1 .js {
-  background-color: yellow;;
+body .container .card .face.face1 .cSharp {
+  background-color: #fc00ff;
 
   -webkit-background-clip: text;
 
